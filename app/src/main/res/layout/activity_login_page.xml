@@ -1,0 +1,96 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    tools:context=".LoginPage">
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:rowCount="2"
+        android:columnCount="2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username : "/>
+        <EditText
+            android:id="@+id/txtLoginUser"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password : "/>
+        <EditText
+            android:id="@+id/txtLoginPass"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"/>
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/btnLogin"
+        android:text="Login"
+        android:layout_marginLeft="100dp"/>
+
+
+    <GridLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="50dp"
+        android:layout_marginLeft="50dp"
+        android:rowCount="2"
+        android:columnCount="2">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email : "/>
+        <TextView
+            android:id="@+id/txtLoginEmail"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone : "/>
+        <TextView
+            android:id="@+id/txtLoginPhone"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course : "/>
+        <TextView
+            android:id="@+id/txtLoginCourse"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender : "/>
+        <TextView
+            android:id="@+id/txtLoginGender"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age : "/>
+        <TextView
+            android:id="@+id/txtLoginAge"
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"/>
+    </GridLayout>
+
+
+</LinearLayout>
+

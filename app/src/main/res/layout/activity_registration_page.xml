@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    android:orientation="vertical"
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".RegistrationPage">
+
+    <GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="20dp"
+        android:rowCount="2"
+        android:columnCount="2">
+
+        <!-- Username -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Username : "/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:id="@+id/txtUsername"/>
+
+
+        <!-- Password -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Password : "/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:id="@+id/txtPassword"/>
+
+
+
+        <!-- Email -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Email : "/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:id="@+id/txtEmail"/>
+
+        <!-- Phone -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Phone : "/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:id="@+id/txtPhone"/>
+
+
+        <!-- Course -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Course : "/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:id="@+id/txtCourse"/>
+
+        <!-- Age -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Age : "/>
+
+        <EditText
+            android:layout_height="wrap_content"
+            android:layout_width="150dp"
+            android:inputType="number"
+            android:id="@+id/txtAge"/>
+
+
+        <!-- Gender -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Gender : "/>
+
+        <RadioGroup
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:id="@+id/rdGrp">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdMale"
+                android:text="Male"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/rdFemale"
+                android:text="Female"/>
+        </RadioGroup>
+    </GridLayout>
+
+    <Button
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="50dp"
+        android:id="@+id/btnRegister"
+        android:text="Register"/>
+</LinearLayout>
